@@ -1,8 +1,8 @@
 import difflib
 import re
 
-# Open the two text files
-with open("/Users/sarthakrana/Desktop/text_files/textfile1.txt", "r") as f1, open("/Users/sarthakrana/Desktop/text_files/textfile2.txt", "r") as f2:
+# Open the two text files check readme for more info
+with open("{path of textfile1}", "r") as f1, open("{path of textfile2}", "r") as f2:
     file1_contents = f1.read()
     file2_contents = f2.read()
 

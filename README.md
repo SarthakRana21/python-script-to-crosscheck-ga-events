@@ -30,6 +30,6 @@ to run the script, open `cmdprompt` or `terminal` and enter the following comman
 `python3 checker.py` if this gives error then enter `python checker.py`
 
 
-when you run the script it will output the missing parameter saved in textfile2
+when you run the script it will output the missing parameter in textfile2
 
 and if no parameter is missing then it will output `set()`

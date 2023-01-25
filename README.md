@@ -10,8 +10,8 @@ open `cmdprompt` or `terminal` and enter the following command
 create 2 `.txt` text files "textfile1", "textfile2"
 copy their paths and paste it on the script between double quotes
 
-`# Open the two text files
-with open("{path}", "r") as f1, open("{path}", "r") as f2:`
+`# Open the two text files`
+`with open("{path}", "r") as f1, open("{path}", "r") as f2:`
 
  save the script.
  

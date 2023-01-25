@@ -20,11 +20,16 @@ copy their paths and paste it on the script between double quotes
 `with open("{path}", "r") as f1, open("{path}", "r") as f2:`
 
  save the script.
- 
+ .
  
  *note: copy paste the parameters that are needed to be checked in textfile1 and from which it needs to be checked, copy paste on textfile2*
-
+.
 
 to run the script, open `cmdprompt` or `terminal` and enter the following command
 
 `python3 checker.py` if this gives error then enter `python checker.py`
+
+
+when you run the script it will output the missing parameter saved in textfile2
+
+and if no parameter is missing then it will output `set()`
